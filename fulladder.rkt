@@ -1,5 +1,7 @@
 #lang racket
 
+;; ripple-carry adder 
+
 (define (gxor A B)
   (or (and A
            (not B))
